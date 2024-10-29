@@ -1,0 +1,114 @@
+body {
+  background-color: rgb(243, 229, 216);
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  /* width: 50%; */
+  background-color: rgb(255, 255, 255);
+  margin: 200px;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.container {
+  margin: 25px;
+}
+.omelette-img {
+  width: 95%;
+  height: 500px;
+  margin: 30px;
+  margin-top: 20px;
+  margin-right: 20px;
+  border-radius: 20px;
+}
+h1 {
+  font-size: 50px;
+}
+.first-section {
+  background-color: rgb(255, 247, 252);
+  margin: 10px 0 10px 0;
+  padding: 20px;
+  border-radius: 15px;
+}
+.first-section-header {
+  color: rgb(104, 65, 85);
+}
+
+.first-section li::marker {
+  color: rgb(104, 65, 85);
+}
+
+.first-section li {
+  padding-left: 15px;
+}
+
+.second-section {
+  margin-top: 25px;
+}
+
+.second-section-header {
+  color: rgb(119, 75, 63);
+
+  margin-bottom: 20px;
+}
+
+.second-section li::marker {
+  color: rgb(104, 65, 85);
+}
+.second-section li {
+  padding-left: 15px;
+}
+
+.third-section-header {
+  color: rgb(119, 75, 63);
+}
+.list-titles {
+  font-weight: 800;
+}
+.third-section {
+  margin: 10px 0;
+}
+.third-section ol {
+  padding-left: 0px;
+}
+
+.third-section ol {
+  list-style: none;
+  counter-reset: num;
+}
+.third-section ol li {
+  counter-increment: num;
+}
+
+.third-section ol li::before {
+  content: counter(num) ". ";
+  color: rgb(104, 65, 85);
+  font-weight: 900;
+}
+
+.fourth-section {
+  margin-top: 20px;
+}
+
+.fourth-section-header {
+  color: rgb(119, 75, 63);
+}
+
+/* .nutrition-value {
+  color: rgb(119, 75, 63);
+  font-weight: 800;
+  padding-left: 50%;
+} */
+
+td {
+  padding-right: 200px;
+  border-bottom: 1px solid #000;
+  padding-bottom: 10px;
+}
+
+td:nth-child(even) {
+  color: rgb(119, 75, 63);
+  font-weight: 800;
+}
